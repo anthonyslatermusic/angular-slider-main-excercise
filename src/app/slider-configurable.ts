@@ -6,7 +6,7 @@ import {Component} from '@angular/core';
   templateUrl: 'slider-configurable.html',
   styleUrls: ['slider-configurable.css'],
 })
-export class SliderConfigurable {
+export class SliderConfigurable{
   autoTicks = false;
   disabled = false;
   invert = false;
