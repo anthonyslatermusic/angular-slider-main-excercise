@@ -1,15 +1,12 @@
 import {coerceNumberProperty} from '@angular/cdk/coercion';
 import {Component} from '@angular/core';
 
-/**
- * @title Configurable slider
- */
 @Component({
-  selector: 'slider-configurable-example',
-  templateUrl: 'slider-configurable-example.html',
-  styleUrls: ['slider-configurable-example.css'],
+  selector: 'slider-configurable',
+  templateUrl: 'slider-configurable.html',
+  styleUrls: ['slider-configurable.css'],
 })
-export class SliderConfigurableExample {
+export class SliderConfigurable {
   autoTicks = false;
   disabled = false;
   invert = false;
@@ -29,8 +26,3 @@ export class SliderConfigurableExample {
   }
   private _tickInterval = 1;
 }
-
-
-/**  Copyright 2019 Google LLC. All Rights Reserved.
-    Use of this source code is governed by an MIT-style license that
-    can be found in the LICENSE file at http://angular.io/license */

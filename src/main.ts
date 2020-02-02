@@ -9,7 +9,7 @@ import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {DemoMaterialModule} from './app/material-module';
 
-import {SliderConfigurableExample} from './app/slider-configurable-example';
+import {SliderConfigurable} from './app/slider-configurable';
 
 @NgModule({
   imports: [
