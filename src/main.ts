@@ -7,8 +7,9 @@ import {MatNativeDateModule} from '@angular/material/core';
 import {BrowserModule} from '@angular/platform-browser';
 import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {DemoMaterialModule} from './app/material-module';
+import {MaterialModule} from './app/material-module';
 
+// this is the export class from the app's typescript file
 import {SliderConfigurable} from './app/slider-configurable';
 
 @NgModule({
@@ -17,7 +18,7 @@ import {SliderConfigurable} from './app/slider-configurable';
     BrowserAnimationsModule,
     FormsModule,
     HttpClientModule,
-    DemoMaterialModule,
+    MaterialModule,
     MatNativeDateModule,
     ReactiveFormsModule,
   ],

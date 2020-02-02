@@ -1,15 +1,15 @@
-.example-h2 {
+.h2 {
   margin: 10px;
 }
 
-.example-section {
+.section {
   display: flex;
   align-content: center;
   align-items: center;
   height: 60px;
 }
 
-.example-margin {
+.margin {
   margin: 10px;
 }
 
